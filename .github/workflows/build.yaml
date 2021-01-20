@@ -23,5 +23,5 @@ jobs:
 #        run: dotnet test --no-restore --verbosity normal
       - name: Print current directory
         run: pwd
-      -name: List files in directory
+      - name: List files in directory
         run: ls

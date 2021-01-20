@@ -22,6 +22,6 @@ jobs:
 #      - name: Test
 #        run: dotnet test --no-restore --verbosity normal
       - name: Print current directory
-        run: echo %cd%
+        run: pwd
       -name: List files in directory
-        run: dir
+        run: ls
